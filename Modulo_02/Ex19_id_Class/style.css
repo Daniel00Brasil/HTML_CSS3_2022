@@ -1,0 +1,41 @@
+@charset "UTF-8";
+ /*
+  em HTML (id)    = em CSS é (#)  aplicação unica
+  em HTML (Class) = em CSS é (.)  aplicação multipla
+ */
+
+
+body {
+    background-color: rgb(177, 207, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(71, 92, 184);
+    color: white;    
+}
+
+h1 {
+    color: rgb(22, 39, 63);
+}
+
+h2 {
+    color: rgb(97, 97, 202);
+}
+
+.basico {
+    color: rgb(89, 77, 156);
+}
+
+.intermediario {
+    color: rgb(44, 23, 119);
+}
+
+.avancado {
+    color: rgb(120, 108, 223);
+}
+
+.destaque {
+    background-color: rgb(158, 132, 46);
+}

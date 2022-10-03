@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">P
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {/*(>) estilizar paragrafo filho que está dentro da div pai*/
+            display: none; /*Esconde paragrpáfo*/
+        }
+
+        div:hover > p {
+            display: block; /*Mostra o paragráfo*/
+            color:white;
+            background-color: red;
+            width: 300px;
+        }P
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de houver</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempore inventore aperiam beatae dolorum praesentium atque illo adipisci quaerat quo, ratione reprehenderit officiis eius ex velit, sint debitis deserunt animi.</p>
+    <div>
+        Passe o mouse aqui.
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>
